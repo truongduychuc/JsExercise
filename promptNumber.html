@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prompting Number</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container" style="padding: 30px">
+        <div class="form-group">
+            <label for="txtNumber">Type number: </label>
+            <input type="number" on id="txtNumber" class="form-control" placeholder="Inscribe number you want to prompt...">
+        </div>
+        <button id="btnGetRand" onclick="getRandomNumber()" class="btn btn-primary">Get a random number</button>
+        <button id="btnPrompt" onclick="letPrompt()" class="btn btn-primary">Let's go</button>
+        <p style="margin-top: 30px" id="pResult" class="text-info">Result will display here</p>
+    </div>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+        var Rnd;
+        ;
+        function getRandomNumber() {
+            Rnd = getRandInt(1, 10);
+            document.getElementById("pResult").innerHTML= "The random number was created!";
+        }
+        function letPrompt() {
+            var numberTyped = document.getElementById("txtNumber").value;
+            if (numberTyped != "") {
+
+                if (numberTyped == Rnd)
+                    document.getElementById("pResult").innerHTML= "Matched!";
+                else
+                    document.getElementById("pResult").innerHTML = "Not matched!";
+                    alert(Rnd);
+
+            }
+        }
+
+        function getRandInt(min, max) {
+
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+
+</script>
+</body>
+</html>
