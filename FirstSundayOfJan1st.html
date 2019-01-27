@@ -5,10 +5,16 @@
     <title>The 1st Jan is Sunday</title>
 </head>
 <body>
-<p id="results"></p>
     <script type="text/javascript">
-        for (let i=2014; i<=2050; i++){
-            
+        var year;
+        for (year = 2014; year <= 2050; year++) {
+            var dayToDetermine = new Date(year, 0, 1);
+            if (dayToDetermine.getDay() == 0) {  //getDay() method returns type number.
+                var pTag=document.createElement("p");
+                var textNode=document.createTextNode("The year has 1st Jan is Sunday is "+year);
+                pTag.appendChild(textNode);
+                document.body.appendChild(pTag);
+            }
         }
     </script>
 </body>
