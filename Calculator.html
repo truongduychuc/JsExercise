@@ -15,23 +15,82 @@
                 </div>
                 <div class="form-group">
                     <label for="firstNumber" class="text-info">First Number:</label>
-                    <input class="form-control" id="firstNumber" type="number"><!-- type number function doesn't effectuate properly on Microsoft Edge -->
+                    <input class="form-control" type="number"id="firstNumber"  ><!-- type number typing restriction doesn't effectuate properly on Microsoft Edge -->
                 </div>
                 <div class="form-group">
                     <label for="secondNumber" class="text-info">Second Number:</label>
                     <input class="form-control" type="number" id="secondNumber">
                 </div>
-                <button class="btn btn-primary">Plus</button>
-                <button class="btn btn-primary float-right">Subtract</button>
-                <button class="btn btn-primary">Multiple</button>
-                <button class="btn btn-primary">Divide</button>
+                <div class="form-group">
+                    <span class="text-danger">Result: </span>
+                    <span></span>
+                </div>
+                <button class="btn btn-primary" id="btnPlus">Plus</button>
+                <button class="btn btn-primary" id="btnMinus">Subtract</button>
+                <button class="btn btn-primary" id="btnMulti">Multiple</button>
+                <button class="btn btn-primary" id="btnDivide" >Divide</button>
             </div>
             <div class="col-md-4"></div>
         </div>
     </div>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/myJsFunctions.js"></script>
     <script type="text/javascript">
+        function ButtonPlus(firstNum,secondNum) {
+            document.getElementsByTagName("span")[1].innerHTML = plus(firstNum, secondNum);
+        }
+        function ButtonMinus(firstNum,secondNum) {
+            document.getElementsByTagName("span")[1].innerHTML = minus(firstNum, secondNum);
+        }
+        function ButtonMultiple(firstNum,secondNum) {
+            document.getElementsByTagName("span")[1].innerHTML = multiple(firstNum, secondNum);
+        }
+        function ButtonDivide(firstNum,secondNum) {
+            document.getElementsByTagName("span")[1].innerHTML = divide(firstNum, secondNum);
+        }
+        function checkInput() {
+            var firstNum = document.getElementById("firstNumber").value;
+            var secondNum = document.getElementById("secondNumber").value;
 
+            if (firstNum == "" || secondNum == "")
+
+                document.getElementsByTagName("span")[1].innerHTML = ("Please type the input thoroughly!");
+
+            else {
+                if (isNaN(firstNum) || isNaN(secondNum))
+
+                    document.getElementsByTagNam    e("span")[1].innerHTML = ("Wrong format! Looks like you're using Microsoft Edge");
+
+                else {
+                    var buttonID = this.id;
+
+                    //you can find functions below in myJsFunctions.js
+                    switch (buttonID) {
+                        case 'btnPlus':
+                            ButtonPlus(firstNum, secondNum);
+                            break;
+                        case 'btnMinus':
+                            ButtonMinus(firstNum, secondNum);
+                            break;
+                        case 'btnMulti':
+                            ButtonMultiple(firstNum, secondNum);
+                            break;
+                        case 'btnDivide':
+                            ButtonDivide(firstNum, secondNum);
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }
+        }
+
+        var buttonList = document.getElementsByClassName("btn btn-primary");
+        var buttonListLength = buttonList.length;
+        var index;
+        for (index = 0; index < buttonListLength; index++) {
+            buttonList[index].onclick = checkInput;
+        }
     </script>
 </body>
 </html>
