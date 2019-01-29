@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deleting String</title>
+</head>
+<body>
+    <label>Enroll the string you want to delete: </label>
+    <input id="givenString" size="30" autocomplete onchange="changeMaxOfIndex()" type="text" placeholder="Type the string here...">
+    <br>
+    <label>Choose the position of the character will be deleted: </label>
+    <input id="indexToDelete" type="number" min="0">
+    <br>
+    <button type="button" onclick="deleteChar()">Delete</button>
+    <br>
+    <span></span>
+    <br>
+    Result:
+    <span></span>
+    <span></span>
+
+    <script type="text/javascript">
+        function deleteChar() {
+            var spanResult = document.getElementsByTagName("span");
+            var givenString = document.getElementById("givenString").value;
+            var lengthOfGivenString = givenString.length;
+            spanResult[0].innerHTML = "Length of given string: " + lengthOfGivenString;
+            if (givenString == null || givenString == "") {
+
+                spanResult[1].innerHTML = "There's nothing to delete";
+
+            }else {
+
+                var deleteLength = document.getElementById("indexToDelete").value;
+                if (deleteLength > givenString.length-1)
+                    spanResult[1].innerHTML = "The index you want to delete must less than the given string length.";
+               else{
+                   var index;
+                    for (index = 0; index < lengthOfGivenString; index++) {
+                        if (index == deleteLength) {
+                            givenString[index] = "";
+                            spanResult[1].innerHTML = givenString;
+                            break;
+                        }
+                    }
+
+                }
+            }
+
+        }
+
+        function changeMaxOfIndex() {
+            document.getElementById("indexToDelete").setAttribute("max",document.getElementById("givenString").value.length-1);
+        }
+
+
+    </script>
+</body>
+</html>
