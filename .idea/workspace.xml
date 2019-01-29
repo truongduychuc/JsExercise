@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6910a3fe-589b-4f79-adb9-105f832a454c" name="Default Changelist" comment="&quot;update Calculator.html&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deleteString.html" beforeDir="false" afterPath="$PROJECT_DIR$/deleteString.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/myJsFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/myJsFunctions.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,8 +19,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deleteString.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="32" column="82" selection-start-line="32" selection-start-column="82" selection-end-line="32" selection-end-column="82" />
+            <state relative-caret-position="165">
+              <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/myJsFunctions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -42,10 +52,10 @@
         <option value="$PROJECT_DIR$/FirstSundayOfJan1st.html" />
         <option value="$PROJECT_DIR$/TheNextXmas.html" />
         <option value="$PROJECT_DIR$/js/Calculator.html" />
-        <option value="$PROJECT_DIR$/js/myJsFunctions.js" />
         <option value="$PROJECT_DIR$/Calculator.html" />
         <option value="$PROJECT_DIR$/getURLofPage.html" />
         <option value="$PROJECT_DIR$/addingPyToString.html" />
+        <option value="$PROJECT_DIR$/js/myJsFunctions.js" />
         <option value="$PROJECT_DIR$/deleteString.html" />
       </list>
     </option>
@@ -67,6 +77,11 @@
             <path>
               <item name="JsExercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="JsExercise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JsExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -141,12 +156,12 @@
       <workItem from="1548580896057" duration="700000" />
       <workItem from="1548581758898" duration="10713000" />
       <workItem from="1548647332389" duration="13790000" />
-      <workItem from="1548734823861" duration="6985000" />
+      <workItem from="1548734823861" duration="8108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36229000" />
+    <option name="totallyTimeSpent" value="37352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="810" extended-state="6" />
@@ -198,13 +213,6 @@
         <state relative-caret-position="-348" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/myJsFunctions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Calculator.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-390">
@@ -229,10 +237,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/myJsFunctions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/deleteString.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="32" column="82" selection-start-line="32" selection-start-column="82" selection-end-line="32" selection-end-column="82" />
+        <state relative-caret-position="165">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
         </state>
       </provider>
     </entry>
