@@ -21,3 +21,7 @@ function divide(a,b) {
         return "Can not divide for zero!"
     else return a/b;
 }
+
+function replaceCharAt(str, index, replaceString) {
+    return str.substring(0, index) + replaceString + str.substring(index + 1);
+}

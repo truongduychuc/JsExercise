@@ -18,7 +18,7 @@
     Result:
     <span></span>
     <span></span>
-
+    <script src="js/myJsFunctions.js" type="text/javascript"></script>
     <script type="text/javascript">
         function deleteChar() {
             var spanResult = document.getElementsByTagName("span");
@@ -35,15 +35,8 @@
                 if (deleteLength > givenString.length-1)
                     spanResult[1].innerHTML = "The index you want to delete must less than the given string length.";
                else{
-                   var index;
-                    for (index = 0; index < lengthOfGivenString; index++) {
-                        if (index == deleteLength) {
-                            givenString[index] = "";
-                            spanResult[1].innerHTML = givenString;
-                            break;
-                        }
-                    }
-
+                   var resultString=replaceCharAt(givenString,deleteLength,"");
+                    spanResult[1].innerHTML=(resultString=="")?"\t(Empty string)":resultString;
                 }
             }
 
