@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6910a3fe-589b-4f79-adb9-105f832a454c" name="Default Changelist" comment="&quot;update Calculator.html&quot;">
-      <change beforePath="$PROJECT_DIR$/deleteString.html" beforeDir="false" afterPath="$PROJECT_DIR$/deleteString.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/myJsFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/myJsFunctions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/deleteString.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/myJsFunctions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+            <state relative-caret-position="142">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/myJsFunctions.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ObjectExample.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+            <state relative-caret-position="150">
+              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -57,6 +56,7 @@
         <option value="$PROJECT_DIR$/addingPyToString.html" />
         <option value="$PROJECT_DIR$/js/myJsFunctions.js" />
         <option value="$PROJECT_DIR$/deleteString.html" />
+        <option value="$PROJECT_DIR$/ObjectExample.html" />
       </list>
     </option>
   </component>
@@ -71,6 +71,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,7 +88,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -96,7 +96,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -115,11 +115,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.deleteString.html">
+  <component name="RunManager" selected="JavaScript Debug.ObjectExample.html">
     <configuration name="Calculator.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JsExercise/Calculator.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="TheNextXmas.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JsExercise/TheNextXmas.html" useBuiltInWebServerPort="true">
+    <configuration name="ObjectExample.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JsExercise/ObjectExample.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="addingPyToString.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JsExercise/addingPyToString.html" useBuiltInWebServerPort="true">
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.ObjectExample.html" />
         <item itemvalue="JavaScript Debug.deleteString.html" />
         <item itemvalue="JavaScript Debug.addingPyToString.html" />
         <item itemvalue="JavaScript Debug.getURLofPage.html" />
         <item itemvalue="JavaScript Debug.Calculator.html" />
-        <item itemvalue="JavaScript Debug.TheNextXmas.html" />
       </list>
     </recent_temporary>
   </component>
@@ -156,12 +156,15 @@
       <workItem from="1548580896057" duration="700000" />
       <workItem from="1548581758898" duration="10713000" />
       <workItem from="1548647332389" duration="13790000" />
-      <workItem from="1548734823861" duration="8108000" />
+      <workItem from="1548734823861" duration="8392000" />
+      <workItem from="1548815718168" duration="656000" />
+      <workItem from="1548828661879" duration="633000" />
+      <workItem from="1548829661418" duration="1368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37352000" />
+    <option name="totallyTimeSpent" value="40293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="810" extended-state="6" />
@@ -237,17 +240,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/myJsFunctions.js">
+    <entry file="file://$PROJECT_DIR$/deleteString.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        <state relative-caret-position="120">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deleteString.html">
+    <entry file="file://$PROJECT_DIR$/js/myJsFunctions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+        <state relative-caret-position="142">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectExample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
